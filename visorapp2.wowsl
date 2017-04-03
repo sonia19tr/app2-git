@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>24</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visorapp2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles,cube</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/angular/</ImageTemplate>
+            <ImageTemplateName>Angular</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#5f32a3</TemplateColor>
+            <TemplateFont>Play</TemplateFont>
+            <TemplateName>angular</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/definicion2.jpg</url>
+                <title>definicion2</title>
+                <filesize>33766</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/definicion3.jpg</url>
+                <title>definicion3</title>
+                <filesize>112481</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/definicion4.jpg</url>
+                <title>definicion4</title>
+                <filesize>8006</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/definicion5.jpg</url>
+                <title>definicion5</title>
+                <filesize>23143</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/definicion6.jpg</url>
+                <title>definicion6</title>
+                <filesize>23884</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/futuro1.jpg</url>
+                <title>futuro1</title>
+                <filesize>16252</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/futuro2.jpg</url>
+                <title>futuro2</title>
+                <filesize>55274</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/futuro3.jpg</url>
+                <title>futuro3</title>
+                <filesize>237244</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/futuro4.jpg</url>
+                <title>futuro4</title>
+                <filesize>77121</filesize>
+            </Image>
+            <Image>
+                <url>E:/CBTis16/2do/4to SEMESTRE/DAM/2do PARCIAL/aplicaciones/app2/imagenes/gama1.jpg</url>
+                <title>gama1</title>
+                <filesize>84360</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

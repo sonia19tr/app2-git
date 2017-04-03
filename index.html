@@ -1,0 +1,310 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+
+<!--grupo CSS-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/tema-app1.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+ <body onLoad="MM_preloadImages('imagenes/definicion2.jpg','imagenes/definicion4.jpg','imagenes/definicion6.jpg','imagenes/historia3.jpg','imagenes/historia4.jpg')">
+
+    <div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Telefonia celular en Mexico</h1>
+    </div>
+   <div data-role="main" class="ui-content">
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/definicion2.jpg" alt="definicion2" title="definicion2" id="wows1_0"/></li>
+		<li><img src="data1/images/definicion3.jpg" alt="definicion3" title="definicion3" id="wows1_1"/></li>
+		<li><img src="data1/images/definicion4.jpg" alt="definicion4" title="definicion4" id="wows1_2"/></li>
+		<li><img src="data1/images/definicion5.jpg" alt="definicion5" title="definicion5" id="wows1_3"/></li>
+		<li><img src="data1/images/definicion6.jpg" alt="definicion6" title="definicion6" id="wows1_4"/></li>
+		<li><img src="data1/images/futuro1.jpg" alt="futuro1" title="futuro1" id="wows1_5"/></li>
+		<li><img src="data1/images/futuro2.jpg" alt="futuro2" title="futuro2" id="wows1_6"/></li>
+		<li><img src="data1/images/futuro3.jpg" alt="futuro3" title="futuro3" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/futuro4.jpg" alt="responsive slider" title="futuro4" id="wows1_8"/></a></li>
+		<li><img src="data1/images/gama1.jpg" alt="gama1" title="gama1" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="definicion2"><span><img src="data1/tooltips/definicion2.jpg" alt="definicion2"/>1</span></a>
+		<a href="#" title="definicion3"><span><img src="data1/tooltips/definicion3.jpg" alt="definicion3"/>2</span></a>
+		<a href="#" title="definicion4"><span><img src="data1/tooltips/definicion4.jpg" alt="definicion4"/>3</span></a>
+		<a href="#" title="definicion5"><span><img src="data1/tooltips/definicion5.jpg" alt="definicion5"/>4</span></a>
+		<a href="#" title="definicion6"><span><img src="data1/tooltips/definicion6.jpg" alt="definicion6"/>5</span></a>
+		<a href="#" title="futuro1"><span><img src="data1/tooltips/futuro1.jpg" alt="futuro1"/>6</span></a>
+		<a href="#" title="futuro2"><span><img src="data1/tooltips/futuro2.jpg" alt="futuro2"/>7</span></a>
+		<a href="#" title="futuro3"><span><img src="data1/tooltips/futuro3.jpg" alt="futuro3"/>8</span></a>
+		<a href="#" title="futuro4"><span><img src="data1/tooltips/futuro4.jpg" alt="futuro4"/>9</span></a>
+		<a href="#" title="gama1"><span><img src="data1/tooltips/gama1.jpg" alt="gama1"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <div data-role="collapsible" data-content-theme="false">
+     <h2>Telefonia celular</h2>
+      <div>
+       <p>Esto es un telefono celular</p>
+       <br>
+     </div>
+     <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('def1','','imagenes/definicion2.jpg',1)"><img src="imagenes/definicion1.jpg" width="300" height="228" id="def1"></a> </div>
+   </div>
+  </div>
+  <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Definicion</h2>
+         <p>Definicion de un telefono celular</p>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Historia</h2>
+        <p>Historia de la telefonia celular.</p>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Clasificacion</h2>
+        <p>Clasificacion de los telefonos(Gama)</p>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Compañias </h2>
+        <p> Compañias que ofrecen servicio celular.</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Telefonos del futuro</h2>
+         <P>Telefonos del futuro</P>
+       </a>
+     </li>
+     </ul>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+       <img src="imagenes/lobo.png" width="46" height="46">
+     </div>
+     <div>
+       <h4>Aplicacion dos</h4>
+       <h4> Sonia Tapia Ramirez </h4>
+   </div>
+   </div>
+   </div>
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Definicion celular</h1>
+     </div>
+
+   <div data-role="content" align="center">
+     <div>
+       <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h2> Telefono 1  </h2>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('def2','','imagenes/definicion4.jpg',1)"><img src="imagenes/definicion3.jpg" width="300" height="234" id="def2"></a>
+       </div>
+      </div>
+     </div>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2> Telefono 2  </h2>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('def3','','imagenes/definicion6.jpg',1)"><img src="imagenes/definicion5.jpg" width="300" height="195" id="def3"></a>
+       </div>
+      </div>
+        <p> Un teléfono celular es un dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. </p>
+     
+     <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion Dos, STR</h4>
+     </div>
+   </div>
+ </div>
+ </div>     
+</div> 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Historia de la telefonia celular</h1>
+</div>
+   <div data-role="content" align="center">
+     <div>
+       <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h2> Telefono 1 (Historia) </h2>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('his1','','imagenes/historia3.jpg',1)"><img src="imagenes/historia1.jpg" width="300" height="299" id="his1"></a>
+ </div>
+</div> 
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+     <h2> Telefono 2 (Historia) </h2>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('his2','','imagenes/historia4.jpg',1)"><img src="imagenes/historia2.jpg" width="300" height="300" id="his2"></a>
+ </div>
+</div>
+</div>  
+     <p> El 11 de junio de 2002, el Boletín Oficial de la Cámara de Representantes de los Estados Unidos publicó la Resolución n.º 269, por la que se honra la vida y el trabajo del inventor italoestadounidense. En la misma se reconoce que fue más bien Antonio Meucci en vez de Alexander Graham Bell quien inventó el teléfono </p>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion Dos, STR</h4>
+     </div>
+   </div>
+ </div>
+ </div> 
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Clasificacion de celulares</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h3> Gama ALTA <h3/>
+    <p> Gama alta,es lo ultimo y mas potente del momento. </p>
+    <img src="imagenes/gama1.jpg" width="300" height="188"> 
+ </div>
+</div>
+    
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h3> Gama MEDIA <h3/>
+    <p> Gama media significa que es lo mas normal y promedio. </p>
+    <img src="imagenes/gama2.jpg" width="300" height="188">
+    </div>
+   </div>
+    
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h3> Gama BAJA <h3/>
+    <p> Gama baja, es tecnologia atrasada que no se vendio cuando salio y se a devalorizado. </p>
+    <img src="imagenes/gama3.jpg" width="300" height="188">   
+   </div>
+   </div>
+   </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Dos, STR</h4>
+        </div>
+         </div>
+       </div>
+  
+       
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Compañias que ofrecen servicio celular</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+            <h3>Existen diversas compañias algunas de ellas son:</h3>
+            <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+    <h2> Telcel </h2>
+    <a href ="http://www.telcel.com/" target="_self"> Ir a la pagina de telcel  </a>
+    <img src="imagenes/compania1.jpg" width="300" height="188"> </div>
+    </div>
+    </div>
+    <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+    <h2> Movistar </h2>
+    <a href ="http://www.movistar.com.mx/" target="_self"> Ir a la pagina de Movistar  </a>
+    <img src="imagenes/compania2.jpg" width="300" height="188"> 
+</div>
+</div>
+    <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h2> AT&T </h2>
+     <a href ="https://www.att.com.mx/" target="_self"> Ir a la pagina de AT&T  </a>
+    <img src="imagenes/compania3.jpg" width="300" height="188"> 
+</div>
+</div>
+    <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+    <h2> Unefon </h2>
+    <a href ="https://www.unefon.com.mx/" target="_self"> Ir a la pagina de Unefon  </a>
+    <img src="imagenes/compania4.jpg" width="300" height="188"> 
+</div>
+   </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Dos, STR</h4>
+        </div>
+         </div>
+       </div>
+       
+       <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Telefonos del futuro</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+            <h3>La tecnologia va creciendo a traves de los años hoy en dia estos son algunos de los avances.</h3>
+            <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+            <h2> Onyx Concept Phone con pantalla tactil </h2>
+            <img src="imagenes/futuro1.jpg" width="300" height="188">
+ </div>
+</div>
+            <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+            <h2> Proyecto ARA </h2>
+            <img src="imagenes/futuro2.jpg" width="300" height="188"> 
+</div>
+</div>
+            <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+            <h2> Oppo N1 </h2>
+            <img src="imagenes/futuro3.jpg" width="300" height="188"> 
+</div>
+</div>
+            <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+            <h2> LG z </h2>
+            <img src="imagenes/futuro4.jpg" width="300" height="188"> </div>
+           </div>
+          </div>
+         </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Dos, STR</h4>
+       </div>
+       </div>
+       </div>
+      
+</body>
+ </html>
